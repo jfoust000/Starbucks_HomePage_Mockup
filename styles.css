@@ -1,0 +1,219 @@
+@font-face {
+    font-family: body-regular;
+    src: url(./TT\ Interphases\ Pro\ Trial\ Regular.ttf);
+}
+@font-face {
+    font-family: body-medium;
+    src: url(./TT\ Interphases\ Pro\ Trial\ Medium.ttf);
+}
+@font-face {
+    font-family: menu-bold;
+    src: url(./Mont-HeavyDEMO.otf);
+}
+html, body {
+    margin-top: 5px;
+    width: 100%;
+    height:100%;
+    font-family: body-regular;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 8%;
+    padding-bottom: 10px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    font-family: menu-bold;
+}
+button {
+    cursor: pointer;
+}
+.icon {
+    float: left;
+}
+.right-nav {
+    float: right;
+}
+.right-nav a {
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color: #03a258;
+  }
+
+  .right-nav a:hover {
+    color: #03a258;
+  }
+  .locator-icon {
+    margin-bottom: -5px;
+    margin-right: 5px;
+  }
+
+  .find-a-store {
+    margin-right: 40px;
+    font-family: body-medium;
+  }
+
+.sign-in-btn {
+    font-size: 11pt;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    outline: none;
+    height: 30px;
+    width: 75px;
+    margin-right: 10px;
+}
+.join-now-btn {
+    font-size: 11pt;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    border-radius: 25px;
+    outline: none;
+    height: 30px;
+    width: 80px;
+}
+.main-content {
+    width: 85%;
+    margin-left: 11.5%;
+    margin-top: 33%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.body-image {
+    
+    position: relative;
+    height: 100%;
+
+}
+.container {
+    position: relative;
+    display: flex;
+    background-color: rgb(118,35,47);
+    height: 600px;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.container-2 {
+    position: relative;
+    display: flex;
+    background-color: rgb(176,74,90);
+    height: 600px;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.container-3 {
+    position: relative;
+    display: flex;
+    background-color: rgb(176,74,90);
+    height: 600px;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.right-text {
+    margin: auto;
+    width: 450px;
+    font-size: 24pt;
+    color: white;
+}
+.right-text p {
+    
+    font-family: body-medium;
+    font-size: 16pt;
+}
+.left-text {
+    margin: auto;
+    width: 450px;
+    font-size: 24pt;
+    color: white;
+}
+.left-text p {
+    
+    font-family: body-medium;
+    font-size: 16pt;
+}
+.body-btn {
+    font-size: 14pt;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    background-color: transparent;
+    border-radius: 25px;
+    outline: none;
+    height: 40px;
+    width: 125px;
+    color: white;
+}
+.container-4 {
+    position: relative;
+    display: flex;
+    background-color: rgb(29,98,65);
+    height: 250px;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.bottom-btn {
+    font-size: 14pt;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    background-color: transparent;
+    border-radius: 25px;
+    outline: none;
+    height: 40px;
+    width: 175px;
+    color: white;
+}
+.bottom-image {
+    position: relative;
+    height: 100%;
+}
+.bottom-text {
+    margin: auto;
+    width: 450px;
+    font-size: 16pt;
+    color: white;
+}
+.bottom-text p {
+    font-family: body-medium;
+    font-size: 12pt;
+}
