@@ -108,14 +108,12 @@ ul {
 }
 .main-content {
     position:relative;
-    width: 85%;
-    margin-left: 11.5%;
-    top: 635px;
-    height:100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 25px;
+    width: 85%;
+    margin-left: 11.5%;
+    top: 25px;
 }
 .body-image {
     
